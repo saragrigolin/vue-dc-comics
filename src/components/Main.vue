@@ -22,8 +22,13 @@ export default {
     main {
         height: 100px;
         background-color: $mainBackground;
-        h1 {
+        .container {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            h1 {
             color: white;
+        }
         }
     }
 </style>
