@@ -110,7 +110,7 @@ export default {
     main {
         background-color: $mainBackground;
         .container {
-            padding: 2em 0;
+            padding: 3em 0;
             position: relative;
             .title {
                 text-transform: uppercase;
@@ -119,7 +119,7 @@ export default {
                 padding: 1em;
                 background-color: $lightblue;
                 position: absolute;
-                top: -5%;
+                top: -25px;
                 }
             .thumbs {
                 display: flex;
